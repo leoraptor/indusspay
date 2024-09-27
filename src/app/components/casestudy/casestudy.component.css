@@ -1,0 +1,23 @@
+.caseText {
+  color: #161c2d;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 34px;
+  padding-bottom: 6px;
+}
+.caseTextBold {
+  color: #161c2d;
+  font-size: 24px;
+  font-weight: bold;
+}
+.seeWorkbtn {
+  font-size: 18px;
+  font-weight: bold;
+  color: #473bf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  letter-spacing: -1.2px;
+  line-height: 32px;
+}

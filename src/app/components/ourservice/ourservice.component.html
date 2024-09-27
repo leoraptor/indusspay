@@ -1,0 +1,43 @@
+<section class="">
+  <div
+    class="w-[70rem] mx-auto flex items-center justify-center pt-[148px] flex-col"
+  >
+    <div class="text-center flex items-center justify-center flex-col">
+      <p class="heroRedText">Our services</p>
+      <p class="sericeHeadText">
+        We provide great services for our customers based on needs
+      </p>
+      <div class="flex items-start gap-[31px] text-black">
+        <div *ngFor="let i of data">
+          <app-cards [cardData]="i"></app-cards>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center gap-[81px] mt-[60px] pb-[120px]">
+      <div>
+        <img src="profile.png" alt="profile" />
+      </div>
+      <div class="flex items-start gap-[30px] flex-col">
+        <p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="123"
+            height="19"
+            fill="none"
+            viewBox="0 0 123 19"
+          >
+            <path
+              fill="#FCAD38"
+              d="M10.912.244l2.996 5.761 6.698.924c.174.025.317.14.371.298a.42.42 0 01-.116.446l-4.846 4.484 1.144 6.332a.424.424 0 01-.182.427.482.482 0 01-.485.033l-5.991-2.99-5.992 2.99a.482.482 0 01-.485-.032.424.424 0 01-.182-.426l1.144-6.334L.14 7.673a.42.42 0 01-.117-.446.455.455 0 01.372-.298l6.698-.924L10.09.244A.46.46 0 0110.5 0a.46.46 0 01.412.244zM36.392.244l2.854 5.761 6.379.924a.435.435 0 01.243.744l-4.616 4.484 1.09 6.332a.433.433 0 01-.173.427.44.44 0 01-.462.033L36 15.959l-5.706 2.99a.44.44 0 01-.462-.032.433.433 0 01-.174-.426l1.09-6.334-4.617-4.484a.435.435 0 01.243-.744l6.38-.924L35.608.244a.435.435 0 01.783 0zM61.912.244l2.996 5.761 6.698.924c.174.025.318.14.372.298a.42.42 0 01-.117.446l-4.846 4.484 1.144 6.332a.424.424 0 01-.182.427.482.482 0 01-.485.033l-5.991-2.99-5.992 2.99a.482.482 0 01-.485-.032.424.424 0 01-.182-.426l1.144-6.334-4.847-4.484a.42.42 0 01-.117-.446.455.455 0 01.372-.298l6.698-.924L61.09.244A.46.46 0 0161.5 0a.46.46 0 01.412.244zM87.392.244l2.854 5.761 6.379.924a.435.435 0 01.243.744l-4.616 4.484 1.09 6.332a.433.433 0 01-.174.427.44.44 0 01-.461.033L87 15.959l-5.707 2.99a.44.44 0 01-.461-.032.433.433 0 01-.174-.426l1.09-6.334-4.617-4.484a.435.435 0 01.243-.744l6.38-.924L86.608.244a.435.435 0 01.783 0zM112.912.244l2.996 5.761 6.698.924c.174.025.318.14.372.298a.421.421 0 01-.117.446l-4.846 4.484 1.144 6.332a.424.424 0 01-.182.427.482.482 0 01-.485.033l-5.991-2.99-5.992 2.99a.482.482 0 01-.485-.032.426.426 0 01-.182-.426l1.144-6.334-4.847-4.484a.421.421 0 01-.117-.446.456.456 0 01.372-.298l6.698-.924L112.09.244a.46.46 0 01.411-.244.46.46 0 01.411.244z"
+            ></path>
+          </svg>
+        </p>
+        <p class="profileText">
+          “OMG! I cannot believe that I have got a brand new landing page after
+          getting Albino. It was super easy to edit and publish.”
+        </p>
+        <p class="profileSubText"><span>Franklin Hicks</span> Web Developer</p>
+      </div>
+    </div>
+  </div>
+</section>

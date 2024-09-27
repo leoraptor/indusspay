@@ -1,0 +1,36 @@
+.whyUsLowText {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.whyUsLowText2 {
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 400;
+  color: #ababab;
+  max-width: 589px;
+  line-height: 32px;
+}
+.footerLogo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.ftext {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ababab;
+}
+.icons {
+  cursor: pointer;
+}
+.icons svg path:hover {
+  fill: white;
+  transition: 300ms ease-in-out;
+}
+.ftext2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}

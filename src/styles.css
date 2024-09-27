@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* gilroy font */
+@font-face {
+  font-family: "gr";
+  src: local("gr"),
+    url("../src//Fonts/Gilroy\ Font/Gilroy-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gr";
+}
+
+.startPorjectBtn {
+  background: #473bf0;
+  height: 50px;
+  width: 209px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  /* transition: top 400ms ease-in-out; */
+}
+
+.heroRedText {
+  font-size: 13px;
+  color: #f64b4b;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.sericeHeadText {
+  font-size: 36px;
+  color: #161c2d;
+  font-weight: bold;
+  letter-spacing: -1.2px;
+  line-height: 48px;
+  max-width: 521px;
+  margin-top: 23px;
+  text-align: center;
+  margin-bottom: 81px;
+}

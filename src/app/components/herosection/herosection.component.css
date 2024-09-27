@@ -1,0 +1,31 @@
+.herosection {
+  background: url("../../../../public/BG.png");
+  height: 100vh;
+  width: 100%;
+  padding-top: 80px;
+}
+.heroRedText {
+  font-size: 13px;
+  color: #f64b4b;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.heroHeaderText {
+  font-size: 60px;
+  color: #161c2d;
+  font-weight: bold;
+  letter-spacing: -2px;
+  max-width: 541px;
+  line-height: 65px;
+}
+.heroSubText {
+  font-size: 19px;
+  color: #161c2d;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  max-width: 500px;
+  line-height: 32px;
+}
+.heroImage {
+}

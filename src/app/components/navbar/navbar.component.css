@@ -1,0 +1,25 @@
+nav {
+  transition: background-color 400ms ease-in-out;
+}
+
+nav.scrolled {
+  background-color: rgba(255, 255, 255);
+}
+
+.logo {
+  color: #161c2d;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.navElements li {
+  color: #161c2d;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+.navElements li:hover {
+  color: #473bf0;
+}

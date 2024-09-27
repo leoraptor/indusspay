@@ -1,0 +1,15 @@
+.whyText {
+  font-size: 21px;
+  font-weight: bold;
+  color: #161c2d;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+}
+.whySubText {
+  font-size: 17px;
+  font-weight: 400;
+  color: #161c2d;
+  margin-top: 15px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+}

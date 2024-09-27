@@ -1,0 +1,27 @@
+<section class="bg-[#F4F7FA]">
+  <div class="mx-auto w-[70rem] flex flex-col items-center justify-center">
+    <p class="heroRedText pt-[118px]">Our services</p>
+    <p class="sericeHeadText">
+      We provide great services for our customers based on needs
+    </p>
+    <div class="pb-[120px] w-[868px]">
+      <div class="grid grid-cols-2 gap-y-[80px] gap-[60px]">
+        <div *ngFor="let i of data">
+          <app-why-us-card [whyData]="i"></app-why-us-card>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-between py-[70px] w-full border-t-[1px] border-[#D8D8D8]"
+    >
+      <div>
+        <p class="whyUsLowText">Ready to launch your next project?</p>
+        <p class="whyUsLowText2">
+          With lots of unique blocks, you can easily build a page without
+          coding. Build your next landing page.
+        </p>
+      </div>
+      <button class="startPorjectBtn">Get started a project</button>
+    </div>
+  </div>
+</section>

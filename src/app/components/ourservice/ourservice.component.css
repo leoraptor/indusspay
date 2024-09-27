@@ -1,0 +1,16 @@
+.profileText {
+  font-weight: bold;
+  font-size: 24px;
+  color: #161c2d;
+  max-width: 735px;
+}
+.profileSubText {
+  font-weight: 400;
+  font-size: 17px;
+  color: #161c2d;
+}
+.profileSubText span {
+  font-weight: bold;
+  font-size: 17px;
+  color: #161c2d;
+}

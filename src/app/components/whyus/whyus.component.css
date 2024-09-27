@@ -1,0 +1,14 @@
+.whyUsLowText {
+  font-size: 32px;
+  font-weight: bold;
+  color: #161c2d;
+}
+
+.whyUsLowText2 {
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 400;
+  color: #161c2d;
+  max-width: 589px;
+  line-height: 32px;
+}
